@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\ozcelikozlem\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ozcelikozlem\\AppData\\Roaming\\NuGet\\NuGet.Config",
