@@ -15,7 +15,7 @@ using WebApi.DbOperations;
 
 namespace WebApi.Controllers
 {
-    [Authorize(Roles ="Administrator")]
+    [Authorize]
     [ApiController]
     [Route("[controller]s")]
     public class ProductShoppingListController : ControllerBase
