@@ -34,7 +34,7 @@ Administrator tarfından kontrol edilirler.(Görüntüleme işlemleri, Ekleme, S
 ### User :
 * Kullanıcı görüntüleme, oluşturma , silme , güncelleme ,rol verme, JWT, kullanıcının doğrulanması, web servis güvenliği sağlama işlemleri yapılır.
 
-* Unit Test & Integrasyon Testi
+* Unit Test & Integrasyon Testi (TDD)
 
 ![ProjeGörseli4](/images/final6.jpg)
 
