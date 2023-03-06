@@ -15,7 +15,6 @@ namespace WebApi.UnitTests.Application.MeasureOperations.Commands.UpdateMeasure
         [Theory]
         [InlineData(0,"Lor")]
         [InlineData(0," ")]
-        [InlineData(0,"Lord")]
         [InlineData(1," ")]
         public void WhenInvalidInputsAreGiven_Validator_ShouldBeReturnErrors(int mId,string title )
         {

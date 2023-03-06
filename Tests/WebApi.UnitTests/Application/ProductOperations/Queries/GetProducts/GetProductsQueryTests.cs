@@ -34,22 +34,17 @@ namespace WebApi.UnitTests.Application.ProductOperations.Queries.GetProducts
             result.Should().NotBeNull();
 
             result[0].Title.Should().Be("Pants");
-            result[0].Title.Should().Be("100");
-            result[0].Title.Should().Be("2022,03,06");
-            result[0].Title.Should().Be("4");
-            result[0].Title.Should().Be("4");
+            result[0].Price.Should().Be(100);
+            result[0].ProductDate.Should().Be(new DateTime(2022,03,06));
 
             result[1].Title.Should().Be("Cherry");
-            result[1].Title.Should().Be("60");
-            result[1].Title.Should().Be("2022,06,03");
-            result[1].Title.Should().Be("1");
-            result[1].Title.Should().Be("1");
+            result[1].Price.Should().Be(60);
+            result[1].ProductDate.Should().Be(new DateTime(2022,06,03));
 
-            result[1].Title.Should().Be("Fountain Pen");
-            result[1].Title.Should().Be("45");
-            result[1].Title.Should().Be("2022,09,07");
-            result[1].Title.Should().Be("3");
-            result[1].Title.Should().Be("1");
+
+            result[2].Title.Should().Be("Fountain Pen");
+            result[2].Price.Should().Be(45);
+            result[2].ProductDate.Should().Be(new DateTime(2022,09,07));
 
 
         }

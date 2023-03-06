@@ -32,18 +32,17 @@ namespace WebApi.UnitTests.Application.ShoppingListOperations.Queries.GetShoppin
 
             // Assert
             result.Should().NotBeNull();
-
-            result[0].Price.Should().Be(1);
-            result[0].Quantity.Should().Be(100);
+            result[0].Quantity.Should().Be(1);
+            result[0].Price.Should().Be(100);
             result[0].ShoppingDate.Should().Be(new DateTime(2022,03,06));
 
-            result[0].Price.Should().Be(1);
-            result[0].Quantity.Should().Be(200);
-            result[0].ShoppingDate.Should().Be(new DateTime(2022,06,06));
+            result[1].Price.Should().Be(200);
+            result[1].Quantity.Should().Be(1);
+            result[1].ShoppingDate.Should().Be(new DateTime(2022,06,06));
 
-            result[0].Price.Should().Be(2);
-            result[0].Quantity.Should().Be(100);
-            result[0].ShoppingDate.Should().Be(new DateTime(2022,07,06));
+            result[2].Price.Should().Be(100);
+            result[2].Quantity.Should().Be(2);
+            result[2].ShoppingDate.Should().Be(new DateTime(2022,07,06));
 
 
         }

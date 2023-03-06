@@ -37,14 +37,14 @@ namespace WebApi.UnitTests.Application.MeasureOperations.Commands.UpdateMeasure
         {
             //arrange
             UpdateMeasureCommand command =new UpdateMeasureCommand(_context);
-            UpdateMeasureModel model = new UpdateMeasureModel(){MeasureTitle ="Tests"};
+            UpdateMeasureModel model = new UpdateMeasureModel(){MeasureTitle ="Test"};
             command.Model = model;
             command.MeasureId=3;
             //act
             FluentActions.Invoking(()=> command.Handle()).Invoke();
 
             //assert
-            var category=_context.Categories.SingleOrDefault(a=> a.Id == command.MeasureId);
+            var category=_context.Measures.SingleOrDefault(a=> a.Id == command.MeasureId);
             category.Should().NotBeNull();
             category.Title.Should().Be(model.MeasureTitle);
 

@@ -47,10 +47,10 @@ namespace WebApi.UnitTests.Application.ProductOperations.Commands.UpdateProduct
             UpdateProductCommand command = new UpdateProductCommand(null);
             command.Model =new UpdateProductModel()
             {
-                ProductTitle = "Lord of The Rings",
+                ProductTitle = "Pantssss",
 
             };
-            command.ProductId = 3;
+            command.ProductId = 1;
             
             //act
             UpdateProductCommandValidator validator = new UpdateProductCommandValidator();

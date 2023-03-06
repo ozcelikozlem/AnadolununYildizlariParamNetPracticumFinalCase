@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\WebApi\\WebApi.csproj": {
-                "projectPath": "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\WebApi\\WebApi.csproj"
+              "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\Webapi\\WebApi.csproj": {
+                "projectPath": "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\Webapi\\WebApi.csproj"
               }
             }
           }
@@ -100,14 +100,14 @@
         }
       }
     },
-    "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\WebApi\\WebApi.csproj": {
+    "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\Webapi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\Webapi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\WebApi\\WebApi.csproj",
+        "projectPath": "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\Webapi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\ozcelikozlem\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\WebApi\\obj\\",
+        "outputPath": "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\Webapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ozcelikozlem\\AppData\\Roaming\\NuGet\\NuGet.Config",

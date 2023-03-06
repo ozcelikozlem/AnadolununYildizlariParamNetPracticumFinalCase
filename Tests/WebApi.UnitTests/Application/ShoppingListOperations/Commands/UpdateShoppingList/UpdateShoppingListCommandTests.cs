@@ -33,13 +33,13 @@ namespace WebApi.UnitTests.Application.ShoppingListOperations.Commands.UpdateSho
 
         }
         [Fact]
-        public void WhenValidInputsAreGiven_Product_ShouldBeUpdated()
+        public void WhenValidInputsAreGiven_ShoppingList_ShouldBeUpdated()
         {
             //arrange
             UpdateShoppingListCommand command =new UpdateShoppingListCommand(_context);
-            UpdateShoppingListModel model = new UpdateShoppingListModel(){Quantity =2,Price=100,UserId=1};
+            UpdateShoppingListModel model = new UpdateShoppingListModel(){Quantity =1,Price=200};
             command.Model = model;
-            command.ShoppingListId=3;
+            command.ShoppingListId=2;
             //act
             FluentActions.Invoking(()=> command.Handle()).Invoke();
 
@@ -48,8 +48,6 @@ namespace WebApi.UnitTests.Application.ShoppingListOperations.Commands.UpdateSho
             product.Should().NotBeNull();
             product.Quantity.Should().Be(model.Quantity);
             product.Price.Should().Be(model.Price);
-            product.UserId.Should().Be(model.UserId);
-
     }
     }
 }

@@ -9668,8 +9668,8 @@
     },
     "WebApi/1.0.0": {
       "type": "project",
-      "path": "../../WebApi/WebApi.csproj",
-      "msbuildProject": "../../WebApi/WebApi.csproj"
+      "path": "../../Webapi/WebApi.csproj",
+      "msbuildProject": "../../Webapi/WebApi.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -9714,8 +9714,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\WebApi\\WebApi.csproj": {
-              "projectPath": "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\WebApi\\WebApi.csproj"
+            "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\Webapi\\WebApi.csproj": {
+              "projectPath": "c:\\Users\\ozcelikozlem\\Desktop\\Pratikler\\OnlineStore\\Webapi\\WebApi.csproj"
             }
           }
         }
